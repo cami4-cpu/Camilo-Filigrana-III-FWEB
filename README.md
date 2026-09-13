@@ -1,28 +1,43 @@
-# Proyecto Colaborativo - Fundamentos Web
 
-**Asignatura:** Fundamentos WEB  
-**Grupo:** 4303  
-**Programa:** Ingeniería en Sistemas  
+## Validación HTML
 
-## Integrantes del Equipo
-* **Camilo Filigrana** - Responsable principal
+### Página 1
 
-## Descripción del Proyecto
-Este proyecto es un sitio web de tres páginas HTML interconectadas, desarrollado colaborativamente con Git y GitHub. Su objetivo es presentar información estructurada, semántica y actualizada sobre temas tecnológicos clave.
+**Errores encontrados:**
 
-## Distribución del Trabajo
-Camilo Filigrana Integrante  Responsabilidad Principal
+* Había una etiqueta `<title>` dentro de `<figure>`, lo cual no corresponde.
+* Algunos elementos estaban fuera de la etiqueta `<body>`.
 
-## Validación HTML (W3C)
+**Correcciones realizadas:**
 
-### Página 1: `index.html`
-- **Errores encontrados:** Falta de etiquetas `<meta name="viewport">` y navegación desalineada respecto a los nombres reales de archivos.
-- **Correcciones realizadas:** Se incluyó el viewport responsive y se sincronizaron las rutas en la etiqueta `<nav>`.
+* Se eliminó la etiqueta `<title>` que estaba repetida dentro de `<figure>`.
+* Se dejó una sola etiqueta `<title>` dentro de `<head>`.
+* Se organizaron las etiquetas `<header>`, `<nav>`, `<main>` y `<figure>` dentro de `<body>`.
 
-### Página 2: `nube.html`
-- **Errores encontrados:** Atributo `alt` en la imagen poco descriptivo y falta de la estructura `<meta viewport>`.
-- **Correcciones realizadas:** Se amplió el atributo `alt` y se estructuró correctamente el encabezado `<head>`.
+### Página 2
 
-### Página 3: `realidad.html`
-- **Errores encontrados:** Falta de extensión en las etiquetas de navegación e imágenes.
-- **Correcciones realizadas:** Se actualizaron todos los atributos `href` y `src` para apuntar a la carpeta `/multimedia` y archivos `.html`.
+**Errores encontrados:**
+
+* Había una etiqueta `<h2>` ubicada fuera de `<body>`.
+* Faltaba la etiqueta `<figcaption>` en la imagen.
+
+**Correcciones realizadas:**
+
+* Se movió la etiqueta `<h2>` al lugar correspondiente dentro de `<body>`.
+* Se agregó `<figcaption>` para describir la imagen.
+
+### Página 3
+
+**Errores encontrados:**
+
+* Había una etiqueta `<h2>` fuera de `<body>`.
+* Faltaba la etiqueta `<figcaption>` en la imagen.
+
+**Correcciones realizadas:**
+
+* Se movió el `<h2>` dentro de `<body>`.
+* Se agregó `<figcaption>` debajo de la imagen.
+
+![Página 1](multimedia/7.png)
+![Página 2](multimedia/8.png)
+![ Página 3](multimedia/9.png)
