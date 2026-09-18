@@ -15,8 +15,7 @@ Pasé el código por el validador del W3C y arreglé los siguientes detalles de 
 * **Página 3 (realidad.html):** Mismo problema con un `<h2>` fuera de lugar; lo metí al `<body>` y le agregué su `<figcaption>`.
 
 ### Capturas del validador HTML
-
----
+![Validación CSS](multimedia/22.png)
 
 ## 2. Hoja de estilos CSS (`css/styles.css`)
 
