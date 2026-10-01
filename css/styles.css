@@ -1,4 +1,4 @@
-/* Variables de Paleta de Colores y Accesibilidad */
+
 :root {
     --bg-primary: #4470d6;
     --bg-card: #25384a;
@@ -10,7 +10,7 @@
     --font-main: system-ui, -apple-system, sans-serif;
 }
 
-/* Reset Global */
+
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ body {
     padding: 20px;
 }
 
-/* Encabezados y Estructura */
+
 header, main, footer, section {
     max-width: 900px;
     margin: 0 auto 24px auto;
@@ -74,7 +74,7 @@ nav a:hover, nav a:focus {
     text-decoration: underline;
 }
 
-/* Listas */
+
 ul {
     margin-left: 20px;
     color: var(--text-secondary);
@@ -112,7 +112,7 @@ tr:nth-child(even) {
     background-color: rgba(241, 241, 241, 0.1);
 }
 
-/* Multimedia e Imágenes Responsivas */
+
 figure {
     display: flex;
     flex-wrap: wrap;
