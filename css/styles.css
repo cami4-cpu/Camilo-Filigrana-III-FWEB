@@ -113,7 +113,7 @@ tr:nth-child(even) {
 }
 
 
-.figure {
+figure {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -121,7 +121,7 @@ tr:nth-child(even) {
     margin: 20px 0;
 }
 
-.figure .img {
+figure img {
     max-width: 100%;
     width: 380px;
     height: auto;
